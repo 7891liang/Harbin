@@ -53,16 +53,30 @@ namespace CSharpLua {
       string[] metas = new string[] { toolsDir_ + "/UnityEngine.xml" };
       string lib = string.Join(";", libs.ToArray());
       string meta = string.Join(";", metas);
+      #if UNITY_EDITOR_64
       string args = "{csharpLua_}  -s \"{compiledScriptDir_}\" -d \"{outDir_}\" -l \"{lib}\" -m {meta} -c";
+#if UNITY_EDITOR_OSX
+      string arg = " {0}  -s \"{1}\" -d \"{2}\" -l \"{3}\" -m {4} -c";
       var info = new ProcessStartInfo() {
-        FileName = kDotnet,
-        Arguments = args,
+        FileName = "/usr/local/share/dotnet/dotnet",
+        Arguments = string.Format(arg,csharpLua_,compiledScriptDir_,outDir_,lib,meta),
         UseShellExecute = false,
+        CreateNoWindow = false,
         RedirectStandardOutput = true,
         RedirectStandardError = true,
         StandardOutputEncoding = Encoding.UTF8,
         StandardErrorEncoding = Encoding.UTF8,
       };
+#else
+      var info = new ProcessStartInfo() {
+        FileName = "dotnet",
+        Arguments = string.Format(args,csharpLua_,compiledScriptDir_,outDir_,lib,meta),
+        RedirectStandardOutput = true,
+        RedirectStandardError = true,
+        StandardOutputEncoding = Encoding.UTF8,
+        StandardErrorEncoding = Encoding.UTF8,
+      };
+  #endif
       using (var p = Process.Start(info)) {
         p.WaitForExit();
         if (p.ExitCode == 0) {
@@ -70,7 +84,7 @@ namespace CSharpLua {
         } else {
           string outString = p.StandardOutput.ReadToEnd();
           string errorString = p.StandardError.ReadToEnd();
-          throw new CompiledFail("Compile fail, {errorString}\n{outString}\n{kDotnet} {args}");
+          throw new CompiledFail(string.Format("Compile fail, {0}\n{1}\n{2} {3}",errorString,outString,kDotnet,args));
         }
       }
     }

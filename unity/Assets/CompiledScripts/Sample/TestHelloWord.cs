@@ -18,7 +18,7 @@ namespace Sample {
       var obj1 = FindObjectOfType<MonoBehaviour>();
       Destroy(obj1);
 
-      GameObject i = TestUtils.Load("Assets/BaseScripts/CSharpLua/Examples/01_HelloWorld/TestLoader.prefab");
+      GameObject i = TestUtils2.Load("Assets/BaseScripts/CSharpLua/Examples/01_HelloWorld/TestLoader.prefab");
       var obj = Instantiate(i);
       obj.transform.parent = transform;
     }

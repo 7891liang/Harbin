@@ -21,6 +21,6 @@ namespace CSharpLua {
     }
 #endif
 
-    public const bool kIsRunFromLua = true;
+    public const bool kIsRunFromLua = false;
   }
 }

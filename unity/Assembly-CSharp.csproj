@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5CBB78DF-41AA-AC63-8B76-710BD18F30FA}</ProjectGuid>
+    <ProjectGuid>{C3DA89E1-70C6-7D6C-993E-C8F831D35880}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -212,6 +212,7 @@
      <Compile Include="Assets\CompiledScripts\Sample\TestCoroutine.cs" />
      <Compile Include="Assets\CompiledScripts\Sample\TestHangingScript.cs" />
      <Compile Include="Assets\CompiledScripts\Sample\TestHelloWord.cs" />
+     <Compile Include="Assets\CompiledScripts\TestUtils2.cs" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\BaseScripts\CSharpLua\Examples\01_HelloWorld\testText.txt" />
      <None Include="Assets\BaseScripts\ToLua\readme.txt" />
@@ -237,10 +238,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="CString">
- <HintPath>/Users/mac/workspace/CSharpLuaForUnity/Assets/Plugins/CString.dll</HintPath>
+ <HintPath>/Users/mac/workspace/harbin/unity/Assets/Plugins/CString.dll</HintPath>
  </Reference>
  <Reference Include="Debugger">
- <HintPath>/Users/mac/workspace/CSharpLuaForUnity/Assets/Plugins/Debugger.dll</HintPath>
+ <HintPath>/Users/mac/workspace/harbin/unity/Assets/Plugins/Debugger.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

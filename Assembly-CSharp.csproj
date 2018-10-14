@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5CBB78DF-41AA-AC63-8B76-710BD18F30FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BaseScripts\CSharpLua\CSharpLuaClient.cs" />
+     <Compile Include="Assets\BaseScripts\CSharpLua\LuaAutoWrapAttribute.cs" />
+     <Compile Include="Assets\BaseScripts\CSharpLua\Settings.cs" />
+     <Compile Include="Assets\BaseScripts\CSharpLua\TestUtils.cs" />
+     <Compile Include="Assets\BaseScripts\CSharpLua\UserMonoBehaviourConverter.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\CSharpLua_BridgeMonoBehaviourWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\DelegateFactory.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\LuaBinder.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\LuaInterface_DebuggerWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\LuaProfilerWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\TestUtilsWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AnimationBlendModeWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AnimationClipWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AnimationStateWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AnimationWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AnimatorWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_ApplicationWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AssetBundleWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AsyncOperationWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AudioClipWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_AudioSourceWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_BehaviourWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_BlendWeightsWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_BoxColliderWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_CameraClearFlagsWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_CameraWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_CapsuleColliderWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_CharacterControllerWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_ColliderWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_ComponentWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_GameObjectWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_InputWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_KeyCodeWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_LightTypeWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_LightWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_MaterialWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_MeshColliderWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_MeshRendererWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_MonoBehaviourWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_ParticleSystemWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_PhysicsWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_PlayModeWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_QualitySettingsWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_QueueModeWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_RenderSettingsWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_RenderTextureWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_RendererWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_ResourcesWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_RigidbodyWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_ScreenWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_ShaderWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_SkinnedMeshRendererWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_SleepTimeoutWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_SpaceWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_SphereColliderWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_Texture2DWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_TextureWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_TimeWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_TrackedReferenceWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_TransformWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_WWWWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_WaitForEndOfFrameWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_WaitForFixedUpdateWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_WaitForSecondsWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_WrapModeWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\Generate\UnityEngine_YieldInstructionWrap.cs" />
+     <Compile Include="Assets\BaseScripts\Source\LuaConst.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\LuaInterface_EventObjectWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\LuaInterface_LuaConstructorWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\LuaInterface_LuaFieldWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\LuaInterface_LuaMethodWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\LuaInterface_LuaOutWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\LuaInterface_LuaPropertyWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_ArrayWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_Collections_Generic_DictionaryWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_Collections_Generic_Dictionary_KeyCollectionWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_Collections_Generic_Dictionary_ValueCollectionWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_Collections_Generic_KeyValuePairWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_Collections_Generic_ListWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_Collections_IEnumeratorWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_DelegateWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_EnumWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_NullObjectWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_ObjectWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_StringWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\System_TypeWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\UnityEngine_CoroutineWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\BaseType\UnityEngine_ObjectWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaAttributes.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaBaseRef.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaBeatEvent.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaDLL.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaEvent.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaException.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaFileUtils.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaFunction.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaMatchType.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaMethodCache.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaMisc.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaStackOp.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaState.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaStatePtr.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaStatic.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaTable.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaThread.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaUnityLibs.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\LuaValueType.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\ObjectPool.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\ObjectTranslator.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\ToLua.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\TypeChecker.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Core\TypeTraits.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\01_HelloWorld\HelloWorld.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\02_ScriptsFromFile\ScriptsFromFile.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\03_CallLuaFunction\CallLuaFunction.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\04_AccessingLuaVariables\AccessingLuaVariables.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\05_LuaCoroutine\TestCoroutine.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\06_LuaCoroutine2\TestCoroutine2.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\07_LuaThread\TestLuaThread.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\08_AccessingArray\AccessingArray.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccountWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccount_KeyCollectionWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccount_ValueCollectionWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\09_Dictionary\System_Collections_Generic_KeyValuePair_int_TestAccountWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\09_Dictionary\TestAccountWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\09_Dictionary\UseDictionary.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\10_Enum\AccessingEnum.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\11_Delegate\TestDelegate.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\11_Delegate\TestEventListener.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\11_Delegate\TestEventListenerWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\12_GameObject\TestGameObject.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\13_CustomLoader\TestCustomLoader.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\14_Out\TestOutArg.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\15_ProtoBuffer\TestProtoBuffer.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\15_ProtoBuffer\TestProtol.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\15_ProtoBuffer\TestProtolWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\16_Int64\TestInt64.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\17_Inherit\TestInherit.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\18_Bundle\TestABLoader.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\19_cjson\TestCJson.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\20_utf8\TestUTF8.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\21_String\TestString.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\22_Reflection\TestReflection.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\23_List\UseList.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\24_Struct\PassStruct.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\Performance\TestPerformance.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\TestErrorStack\TestInstantiate.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\TestErrorStack\TestInstantiate2.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\TestErrorStack\TestLuaStack.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\TestOverload\TestExportWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\TestOverload\TestExport_SpaceWrap.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Examples\TestOverload\TestOverload.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Misc\LuaClient.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Misc\LuaCoroutine.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Misc\LuaLooper.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Misc\LuaProfiler.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Misc\LuaResLoader.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Reflection\LuaConstructor.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Reflection\LuaField.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Reflection\LuaMethod.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Reflection\LuaProperty.cs" />
+     <Compile Include="Assets\BaseScripts\ToLua\Reflection\LuaReflection.cs" />
+     <Compile Include="Assets\CompiledScripts\Sample\TestCoroutine.cs" />
+     <Compile Include="Assets\CompiledScripts\Sample\TestHangingScript.cs" />
+     <Compile Include="Assets\CompiledScripts\Sample\TestHelloWord.cs" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\BaseScripts\CSharpLua\Examples\01_HelloWorld\testText.txt" />
+     <None Include="Assets\BaseScripts\ToLua\readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="CString">
+ <HintPath>/Users/mac/workspace/CSharpLuaForUnity/Assets/Plugins/CString.dll</HintPath>
+ </Reference>
+ <Reference Include="Debugger">
+ <HintPath>/Users/mac/workspace/CSharpLuaForUnity/Assets/Plugins/Debugger.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

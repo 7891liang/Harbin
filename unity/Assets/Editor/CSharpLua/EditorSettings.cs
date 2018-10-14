@@ -7,7 +7,7 @@ namespace CSharpLua
 #if UNITY_EDITOR
         public static class Paths {
             public static readonly string CompiledScriptDir = Application.dataPath + "/CompiledScripts";
-            public static readonly string CompiledOutDir = Application.dataPath + "/Lua/CompiledScripts";
+            public static readonly string CompiledOutDir = Application.dataPath + "/Resources/Lua/Generates";
             public static readonly string ToolsDir = Application.dataPath + "/../CSharpLuaTools";
             public const string kTempDir = "Assets/CSharpLuaTemp";
             public const string kBaseScripts = "BaseScripts";

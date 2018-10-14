@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e67aec-b4fc-498f-a270-842922b5246b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BaseScripts/CSharpLua/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BaseScripts/CSharpLua/Settings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CompiledScripts/Sample/TestHelloWord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CompiledScripts/Sample/TestHelloWord.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/CSharpLua/Compiler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/CSharpLua/Compiler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lua/CompiledScripts/Sample/TestCoroutine.lua.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lua/CompiledScripts/Sample/TestCoroutine.lua.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lua/CompiledScripts/Sample/TestHangingScript.lua.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lua/CompiledScripts/Sample/TestHangingScript.lua.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lua/CompiledScripts/Sample/TestHelloWord.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lua/CompiledScripts/Sample/TestHelloWord.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lua/CompiledScripts/Sample/TestHelloWord.lua.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lua/CompiledScripts/Sample/TestHelloWord.lua.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpLuaForUnity.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,36 +21,41 @@
       <file leaf-file-name="Compiler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Editor/CSharpLua/Compiler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="170">
+              <caret line="73" column="55" lean-forward="true" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
               <folding>
-                <marker date="1539507033680" expanded="false" signature="6:192" ph="..." />
-                <marker date="1539507033680" expanded="true" signature="214:5999" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="247:5663" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="299:374" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="359:368" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="948:3392" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="950:1014" ph="/* if (!CheckDotnetInstall()) { ... */" />
-                <marker date="1539507033680" expanded="true" signature="1052:1130" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="1169:1321" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="1273:1313" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="1584:1781" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="1670:1773" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="2219:2605" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="3004:3386" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="3060:3123" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="3439:3780" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="3504:3756" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="3664:3748" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="3835:4529" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="3877:4088" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="4100:4428" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="4146:4420" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="4206:4245" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="4449:4523" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="4681:5659" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="4964:5541" ph="{...}" />
-                <marker date="1539507033680" expanded="true" signature="5053:5406" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="6:172" ph="..." />
+                <marker date="1539509600557" expanded="true" signature="193:7255" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="228:6919" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="288:400" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="362:390" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="1005:3921" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="1016:1080" ph="/* if (!CheckDotnetInstall()) { ... */" />
+                <marker date="1539509600557" expanded="true" signature="1123:1228" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="1272:1493" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="1404:1479" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="1779:2047" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="1885:2033" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="2392:2854" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="3362:3911" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="3446:3544" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="3565:3897" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="3971:4412" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="4056:4377" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="4244:4363" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="4470:5499" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="4539:4804" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="4821:5348" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="4887:5334" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="4983:5065" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="5090:5316" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="5380:5489" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="5509:5646" ph="[...]" />
+                <marker date="1539509600557" expanded="true" signature="5682:6913" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="5997:6753" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="6114:6562" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="6583:6739" ph="{...}" />
+                <marker date="1539509600557" expanded="true" signature="6770:6903" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -110,6 +105,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CompiledScripts/TestUtils2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BaseScripts/Source/Generate/CSharpLua_BridgeMonoBehaviourWrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CompiledScripts/Sample/TestCoroutine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/ToLua/ToLuaMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/CSharpLua/Compiler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -205,12 +201,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539503699885</updated>
-      <workItem from="1539503703697" duration="2997000" />
+      <workItem from="1539503703697" duration="3846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2997000" />
+    <option name="totallyTimeSpent" value="3846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,11 +231,11 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24387646" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="NuGet" />
@@ -310,36 +306,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Editor/CSharpLua/Compiler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="170">
+          <caret line="73" column="55" lean-forward="true" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
           <folding>
-            <marker date="1539507033680" expanded="false" signature="6:192" ph="..." />
-            <marker date="1539507033680" expanded="true" signature="214:5999" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="247:5663" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="299:374" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="359:368" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="948:3392" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="950:1014" ph="/* if (!CheckDotnetInstall()) { ... */" />
-            <marker date="1539507033680" expanded="true" signature="1052:1130" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="1169:1321" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="1273:1313" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="1584:1781" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="1670:1773" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="2219:2605" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="3004:3386" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="3060:3123" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="3439:3780" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="3504:3756" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="3664:3748" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="3835:4529" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="3877:4088" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="4100:4428" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="4146:4420" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="4206:4245" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="4449:4523" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="4681:5659" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="4964:5541" ph="{...}" />
-            <marker date="1539507033680" expanded="true" signature="5053:5406" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="6:172" ph="..." />
+            <marker date="1539509600557" expanded="true" signature="193:7255" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="228:6919" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="288:400" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="362:390" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="1005:3921" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="1016:1080" ph="/* if (!CheckDotnetInstall()) { ... */" />
+            <marker date="1539509600557" expanded="true" signature="1123:1228" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="1272:1493" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="1404:1479" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="1779:2047" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="1885:2033" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="2392:2854" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="3362:3911" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="3446:3544" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="3565:3897" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="3971:4412" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="4056:4377" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="4244:4363" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="4470:5499" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="4539:4804" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="4821:5348" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="4887:5334" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="4983:5065" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="5090:5316" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="5380:5489" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="5509:5646" ph="[...]" />
+            <marker date="1539509600557" expanded="true" signature="5682:6913" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="5997:6753" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="6114:6562" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="6583:6739" ph="{...}" />
+            <marker date="1539509600557" expanded="true" signature="6770:6903" ph="{...}" />
           </folding>
         </state>
       </provider>

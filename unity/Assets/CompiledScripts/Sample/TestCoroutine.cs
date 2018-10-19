@@ -5,12 +5,15 @@ using System.Linq;
 using System.Text;
 
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Sample {
   public class TestCoroutine : MonoBehaviour {
     private List<int> list = new List<int>();
 
-    public void Awake() {
+    public void Awake()
+    {
+      Image i;
       Debug.Log("TestCoroutine");
       StartCoroutine(OnTick());
       print(gameObject.name);

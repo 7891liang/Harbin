@@ -13,6 +13,7 @@ System.namespace("Sample", function (namespace)
       this.__base__.__ctor__(this)
     end
     Awake = function (this)
+      local i
       UnityEngine.Debug.Log("TestCoroutine")
       this:StartCoroutine(OnTick(this))
       UnityEngine.MonoBehaviour.print(this:getgameObject():getname())
